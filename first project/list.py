@@ -54,3 +54,6 @@ print(sorted(fruits1))
 
 print(sorted("natnael"))
 
+courses=["History","Math","Physics","CompSci"]
+for course in courses:
+    print(course)
