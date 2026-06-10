@@ -1,9 +1,3 @@
-
-
-
-from operator import mul
-
-
 def generate_fullname():
     first_name="Natnael"
     space= " "
@@ -61,8 +55,27 @@ def greeting(name="Natnael"):
 print(greeting())
 print(greeting("JOHN "))
 
+# Arbitrary number of arguments
+def sum_nums(*nums):
+    total=0
+    for num in nums:
+        total+=num
+    return total
+print(sum_nums(1,2,3,5))    
+
 # hiding ur password
 from getpass import getpass
 user=input("Enter ur nmae: ")
 password=getpass("Enter ur password: ")
 print(password)
+def generate_groups (team,*args):
+    print(team)
+    for i in args:
+        print(i) 
+generate_groups('Nathan','Nati','Brook','David','Eyob')
+# Dictionary Unpacking
+def greet(name,location):
+    print("Hi there",name, "im from", location )
+greet("NATI","Ethiopia")
+dicti={"name":"Nathan","location":"Ethiopia"}
+greet(**dicti)
