@@ -1,0 +1,4 @@
+radius = 10
+area = 3.14 * radius ** 2
+print(f"The area of of a circle with a radius {radius} is {area} meters square.")
+# The area of a circle with radius 10 is 314 meters square.

@@ -1,0 +1,5 @@
+print("i hope u love this shit.\n right boy")
+print("Days\tTopics\tExercises")
+print("day1 \t5\t6 ")
+print("Day2 \t6\t20")
+print("Day3 \t7\t25")
