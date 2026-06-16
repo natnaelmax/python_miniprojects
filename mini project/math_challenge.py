@@ -1,9 +1,10 @@
 import random
 import time
-Operator=["+","-","*"]
+Operator=["+","-","*","/"]
 minimum=3
 maximum=12
-Total_Problems=4
+# You can change the number of problems
+Total_Problems=10 
 
 def generate_problem():
     left=random.randint(minimum,maximum)
